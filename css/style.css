@@ -1,0 +1,898 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+:root{
+	--color-blanco:#fff;
+	--color-menu:#fff;
+	--color-hover:#d8c4a5;
+	--fondo-header:#000;
+}
+
+body{
+	font-family:'Montserrat', sans-serif;
+	font-size:16px;
+	font-weight:300;
+	color:var(--color-blanco);
+}
+
+header{
+	background-color:var(--fondo-header);
+	padding:15px 0;
+}
+
+.logo{
+	width:150px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:'Cormorant Garamond', serif;
+}
+
+.nav-link{
+	font-family:'Montserrat', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	color:var(--color-menu);
+}
+
+.nav-link:hover{
+	color:var(--color-hover);
+}
+
+#hero{
+	background-size:cover;
+	background-position:center;
+	padding:15% 0;
+	text-align:center;
+	color:#fff;
+
+	background-color:rgba(0,0,0,0.45);
+	background-blend-mode:multiply;
+}
+
+.fondo-home{
+	background-image:url("../img/foto_emely.jpg");
+}
+
+.fondo-about{
+	background-image: url("../img/fondo_aboutme.jpg");
+}
+
+#hero h4{
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:300;
+	letter-spacing:8px;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+
+#hero h1{
+	font-family:'Cormorant Garamond', serif;
+	font-size:120px;
+	font-weight:600;
+	letter-spacing:5px;
+	margin-bottom:20px;
+}
+
+#hero p{
+	font-family:'Montserrat', sans-serif;
+	font-size:18px;
+	font-weight:300;
+	letter-spacing:6px;
+	text-transform:uppercase;
+}
+
+.titulo{
+	font-family:'Cormorant Garamond', serif;
+	font-size:50px;
+	font-weight:600;
+}
+
+.social-icons .nav-link{
+	font-size:18px;
+	color:#fff;
+}
+
+.social-icons .nav-link:hover{
+	color:var(--color-hover);
+}
+
+#approach{
+	background-color: #000;
+}
+
+#approach .titulo{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 55px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+#approach p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	line-height: 1.9;
+	color: #bfbfbf;
+	margin-bottom: 20px;
+}
+
+#approach img{
+	width: 70%;
+	display: block;
+	margin: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.about-info{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.section{
+	padding: 8% 0;
+}
+
+.btn-secondary{
+	background-color: transparent;
+	border: 1px solid #d8c4a5;
+	color: #d8c4a5;
+	padding: 12px 25px;
+	border-radius: 0;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.btn-secondary:hover{
+	background-color: #d8c4a5;
+	color: #000;
+}
+
+#about{
+	background-color:#000;
+}
+
+.foto-about{
+	width:100%;
+	border-radius:10px;
+}
+
+.about-info{
+	padding-left:12%;
+	padding-right:12%;
+}
+
+#about h5{
+	font-family:'Montserrat', sans-serif;
+	font-size:13px;
+	letter-spacing:4px;
+	color:#d8c4a5;
+	margin-bottom:30px;
+}
+
+.titulo-about{
+	font-family:'Cormorant Garamond', serif;
+	font-size:70px;
+	font-weight:600;
+	line-height:1.1;
+	color:#fff;
+	margin-bottom:35px;
+}
+
+#about p{
+	font-family:'Montserrat', sans-serif;
+	font-size:17px;
+	line-height:2;
+	color:#bfbfbf;
+	margin-bottom:25px;
+}
+
+#skills{
+	background-color:#000;
+	padding: 3% 0;
+}
+
+#skills .titulo{
+	color:#fff;
+	font-family:'Cormorant Garamond', serif;
+	font-size:60px;
+	font-weight:600;
+	margin-bottom:20px;
+}
+
+#skills .subtitulo{
+	color:#bfbfbf;
+	font-family:'Montserrat', sans-serif;
+	font-size:18px;
+	font-weight:300;
+	width:60%;
+	margin:auto;
+	margin-bottom:60px;
+	line-height:1.8;
+}
+
+.info-skill{
+	text-align:center;
+	padding:30px 10%;
+}
+
+.icono{
+	width:100px;
+	height:100px;
+	line-height:100px;
+	border-radius:100%;
+	font-size:35px;
+	color:#d8c4a5;
+	box-shadow:0px 0px 40px 1px #111;
+	margin-bottom:25px;
+}
+
+.titulo-skill{
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:500;
+	color:#fff;
+	margin-bottom:15px;
+}
+
+.info-skill p{
+	color:#bfbfbf;
+	font-size:15px;
+	line-height:1.8;
+}
+
+.fondo-photo{
+	background-image: url("../img/photo_emely.jpeg");
+}
+
+#photo-projects{
+	background-color:#000;
+}
+
+#photo-projects .titulo{
+	font-family:'Cormorant Garamond', serif;
+	font-size:65px;
+	color:#fff;
+	margin-bottom:20px;
+}
+
+#photo-projects .subtitulo{
+	color:#bfbfbf;
+	width:60%;
+	margin:auto;
+	margin-bottom:80px;
+	font-family:'Montserrat', sans-serif;
+}
+
+.proyecto{
+	margin-bottom:90px;
+}
+
+.proyecto img{
+	width: 70%;
+	height: 500px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.proyecto h3{
+	font-family:'Cormorant Garamond', serif;
+	font-size:45px;
+	color:#fff;
+	margin-bottom:25px;
+}
+
+.proyecto p{
+	color:#bfbfbf;
+	font-family:'Montserrat', sans-serif;
+	line-height:1.8;
+}
+
+.etiqueta-software{
+	display:inline-block;
+	border:1px solid #d8c4a5;
+	color:#d8c4a5;
+	padding:5px 12px;
+	font-size:10px;
+	letter-spacing:2px;
+	margin-top:18px;
+	margin-bottom:8px;
+	text-transform:uppercase;
+}
+.software{
+	color:#bfbfbf;
+	font-size:14px;
+	line-height:1.5;
+}
+
+
+.fondo-branding{
+	background-image: url("../img/fondo_branding.jpeg");
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.fondo-branding h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.fondo-branding h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px;
+	margin-bottom: 20px;
+}
+
+.fondo-branding p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+.software-branding{
+	font-size:8px;
+	line-height:1.5;
+	color:#bfbfbf;
+}
+
+#branding-proyecto .software{
+	font-size:12px;
+	line-height:1.5;
+	color:#bfbfbf;
+}
+
+#branding-proyecto{
+	background-color: #000;
+	color: #fff;
+	padding: 100px 0;
+}
+
+#branding-proyecto h2{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+#branding-proyecto h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #d8c4a5;
+	margin-bottom: 25px;
+}
+
+#branding-proyecto p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+	color: #d4d4d4;
+}
+
+#logo-principal{
+	background-color: #000;
+	color: #fff;
+	padding: 80px 0;
+	text-align: center;
+}
+
+#logo-principal h2{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+.logo-grande{
+	max-width: 500px;
+	margin-top: 20px;
+}
+
+#brand-system{
+	background-color: #000;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#brand-system h2{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+#brand-system p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 1.8;
+	color: #d4d4d4;
+}
+
+#brand-system img{
+	border-radius: 10px;
+}
+
+#aplicaciones{
+	background-color: #000;
+	color: #fff;
+	padding: 80px 0;
+}
+
+#aplicaciones h2{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+#aplicaciones img{
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+#resultado{
+	background-color: #000;
+	color: #fff;
+	padding: 40px 0;
+	text-align: center;
+}
+
+#resultado h2{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+#resultado p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 1.8;
+	color: #d4d4d4;
+	width: 70%;
+	margin: auto;
+}
+
+#contact{
+	background-color: #000;
+	padding: 120px 0;
+	color: #fff;
+}
+
+#contact h2{
+	font-size: 90px;
+	font-family: "Cormorant Garamond", serif;
+	margin-bottom: 30px;
+}
+
+.contact-text{
+	max-width: 700px;
+	margin: 0 auto 80px;
+	font-size: 22px;
+	line-height: 1.8;
+	color: #d9d9d9;
+}
+
+.icon-contact{
+	font-size: 30px;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+#contact h4{
+	font-size: 24px;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+
+#contact p{
+	font-size: 18px;
+	color: #d9d9d9;
+}
+
+.logo-contact{
+	width: 150px;
+	margin-top: 90px;
+	opacity: 0.9;
+}
+
+#software{
+	background-color: #000;
+	padding: 50px 0;
+	color: #fff;
+}
+
+#software .titulo{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#software .subtitulo{
+	color: #bfbfbf;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 60px;
+	line-height: 1.8;
+}
+
+.software-logo{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.software-icon{
+	font-size: 50px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+#software p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #d8d8d8;
+	margin-top: 10px;
+}
+
+.fondo-editorial{
+	background-image:url("../img/revista_fondo.jpg");
+}
+
+#editorial-proyecto{
+	background-color:#000;
+	color:#fff;
+	padding:100px 0;
+}
+
+#editorial-proyecto img{
+	width:100%;
+	border-radius:10px;
+}
+
+#editorial-proyecto h2{
+	font-size:60px;
+	color:#fff;
+}
+
+.descripcion-editorial{
+	color:#d4d4d4;
+	font-size:18px;
+	line-height:1.8;
+}
+
+#editorial-slider{
+	background-color:#000;
+	padding:80px 0;
+	color:#fff;
+}
+
+#editorial-slider h2{
+	font-family:'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-bottom:40px;
+}
+
+#makeup{
+	background-color:#000;
+	padding:80px 0;
+	color:#fff;
+}
+#makeup h2{
+	font-family:'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-bottom:40px;
+}
+#makeup img{
+	border-radius:10px;
+}
+
+#fragrance{
+	background-color:#000;
+	padding:80px 0;
+	color:#fff;
+}
+#fragrance h2{
+	font-family:'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-bottom:40px;
+}
+#fragrance img{
+	border-radius:10px;
+}
+
+#skincare{
+	background-color:#000;
+	padding:80px 0;
+	color:#fff;
+}
+#skincare h2{
+	font-family:'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-bottom:40px;
+}
+#skincare img{
+	border-radius:10px;
+}
+
+#editorial-slider img{
+	width:100%;
+	height:700px;
+	object-fit:contain;
+	background-color:#000;
+	border-radius: 10px;
+}
+
+
+
+footer{
+	background-color:#000;
+	padding:40px 0;
+	border-top:1px solid #222;
+}
+
+footer p{
+	color:#bfbfbf;
+	margin-bottom:0;
+}
+
+footer a{
+	color:#fff;
+	font-size:20px;
+	margin:0 10px;
+}
+
+footer a:hover{
+	color:#d8c4a5;
+}
+
+
+
+/* lg - computadora */
+@media (min-width:1200px){
+
+	#hero h1{
+		font-size:120px;
+	}
+
+	#hero h4{
+		font-size:20px;
+	}
+
+	.titulo-about{
+		font-size:70px;
+	}
+
+	#branding-proyecto h2{
+		font-size:60px;
+	}
+
+	#editorial-proyecto h2{
+		font-size:60px;
+	}
+
+	#logo-principal h2{
+		font-size:60px;
+	}
+
+	#brand-system h2{
+		font-size:60px;
+	}
+
+	#aplicaciones h2{
+		font-size:60px;
+	}
+
+	#resultado h2{
+		font-size:60px;
+	}
+
+	#contact h2{
+		font-size:60px;
+	}
+
+	#skills .titulo{
+		font-size:60px;
+	}
+	.btn-secondary{
+		margin-bottom:40px;
+	}
+	.logo-grande{
+		max-width:500px;
+	}
+	footer{
+		text-align:center;
+	}
+	footer .logo{
+		margin-bottom:20px;
+	}
+	footer ul{
+		margin:20px 0;
+	}
+	footer ul li{
+		margin:0 15px;
+	}
+	footer a{
+		font-size:22px;
+	}
+	footer p{
+		margin-top:20px;
+	}
+
+}
+
+/* sm - tablet */
+@media (min-width:800px) and (max-width:1200px){
+
+	#hero h1{
+		font-size:90px;
+	}
+	#hero h4{
+		font-size:18px;
+	}
+	.titulo-about{
+		font-size:32px;
+		line-height:1.2;
+	}
+	#branding-proyecto h2{
+		font-size:50px;
+	}
+	#editorial-proyecto h2{
+		font-size:50px;
+	}
+	#logo-principal h2{
+		font-size:50px;
+	}
+	#brand-system h2{
+		font-size:50px;
+	}
+	#aplicaciones h2{
+		font-size:50px;
+	}
+	#resultado h2{
+		font-size:50px;
+	}
+	#contact h2{
+		font-size:50px;
+	}
+	#skills .titulo{
+		font-size:50px;
+	}
+	.btn-secondary{
+		margin-bottom:50px;
+	}
+	.logo-grande{
+		max-width:400px;
+	}
+
+	footer{
+		text-align:center;
+	}
+	footer .logo{
+		margin-bottom:25px;
+	}
+	footer ul{
+		margin:25px 0;
+	}
+	footer ul li{
+		margin:0 18px;
+	}
+	footer a{
+		font-size:24px;
+	}
+	footer p{
+		margin-top:25px;
+	}
+}
+
+/* celular */
+@media (max-width:800px){
+
+	#hero h1{
+		font-size:60px;
+	}
+	#hero h4{
+		font-size:14px;
+		letter-spacing:3px;
+	}
+	#hero p{
+		font-size:14px;
+		letter-spacing:2px;
+	}
+	.titulo-about{
+		font-size:32px;
+		line-height:1.2;
+	}
+	#branding-proyecto h2{
+		font-size:38px;
+	}
+	#editorial-proyecto h2{
+		font-size:38px;
+	}
+	#logo-principal h2{
+		font-size:38px;
+	}
+	#brand-system h2{
+		font-size:38px;
+	}
+	#aplicaciones h2{
+		font-size:38px;
+	}
+	#resultado h2{
+		font-size:38px;
+	}
+	#contact h2{
+		font-size:38px;
+	}
+	#skills .titulo{
+		font-size:38px;
+	}
+	.btn-secondary{
+		margin-bottom:35px;
+	}
+	
+	#about{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	#approach{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	#photo-projects{
+		padding-left:30px;
+		padding-right:30px;
+	}
+	#branding-proyecto{
+		padding-left:20px;
+		padding-right:20px;
+	}
+
+	#editorial-proyecto{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.logo-grande{
+		width:300px;
+	}
+
+	footer{
+		text-align:center;
+	}
+	footer .logo{
+		width:120px;
+		margin-bottom:20px;
+	}
+	footer ul{
+		margin:20px 0;
+		padding-left:0;
+	}
+	footer ul li{
+		margin:0 12px;
+	}
+	footer a{
+		font-size:26px;
+	}
+	footer p{
+		margin-top:20px;
+		font-size:14px;
+	}
+}
